@@ -3,17 +3,31 @@
     <head>
         <title>Odin Recipes</title>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap">
     </head>
-    <body>
-        <header>
+    <body class="container">
+        <header class="header">
             <h1>Odin Recipes</h1>
             <h2>One-stop place for quick and easy delicious meal.</h2>
         </header>
-       <div>
+       <div class="recipe-list">
            <ul>
-               <li><a href="recipes/koreanfriedchicken.html">Korean Fried Chicken</a></li>
-               <li><a href="recipes/chickensauce.html">Korean Fried Chicken Sauce</a></li>
-               <li><a href="recipes/hotchocolate.html">Hot Chocolate</a></li>
+               <li class="list-item">
+                   <h1>Korean Fried Chicken</h1>
+                    <img class="list-item-image" src="images/chickensauce.jpg"/>
+                   <a class="list-item-link" href="recipes/koreanfriedchicken.html">Learn this recipe</a>
+                </li>
+               <li class="list-item">
+                   <h1>Korean Fried Chicken Sauce</h1>
+                   <img class="list-item-image" src="images/friedchicken.jpg"/>
+                   <a class="list-item-link" href="recipes/chickensauce.html">Learn this recipe</a>
+                </li>
+               <li class="list-item">
+                   <h1>Hot Chocolate</h1>
+                   <img class="list-item-image" src="images/hotchocolate.jpg"/>
+                   <a class="list-item-link" href="recipes/hotchocolate.html">Learn this recipe</a>
+                </li>
            </ul>
        </div>
     </body>
